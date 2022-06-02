@@ -18,11 +18,16 @@
 </head>
 
 <body>
+    <!------------------------ MAIN -------------------------->
+
     <main>
+        <!-- SIDEBAR -->
         <section id="sidebar">
+            <div class="logo">
+                <a href=""><img src="img/logo-small.svg" alt="small-logo-image"></a>
+            </div>
             <nav class="links flex-col">
                 <ul class="top">
-                    <li><a href=""><img class="logo" src="img/logo-small.svg" alt="logo"></a></li>
                     <li><a href=""><img src="img/home.svg" alt="home"></a></li>
                     <li><a href=""><img src="img/search.svg" alt="search"></a></li>
                     <li><a href=""><img src="img/libreria.svg" alt="library"></a></li>
@@ -33,88 +38,103 @@
                 </ul>
             </nav>
         </section>
+
+        <!-- CONTENT -->
         <section id="content">
-            <div class="nav-upgrade">
+
+            <!-- UPGRADE -->
+            <div class="upgrade">
                 <a class="btn" href="">EFFETTUA L'UPGRADE</a>
             </div>
-            <header>
-                <nav class="nav-bar flex">
-                    <div class="link">
-                        <a href="">IN EVIDENZA</a>
-                        <hr>
-                    </div>
-                    <div class="link">
-                        <a href="">PODCAST</a>
-                        <hr>
-                    </div>
-                    <div class="link">
-                        <a href="">CLASSIFICHE</a>
-                        <hr>
-                    </div>
-                    <div class="link">
-                        <a href="">GENERI E MOOD</a>
-                        <hr>
-                    </div>
-                    <div class="link">
-                        <a href="">NUOVE USCITE</a>
-                        <hr>
-                    </div>
-                    <div class="link">
-                        <a href="">SCOPRI</a>
-                        <hr>
-                    </div>
-                </nav>
-            </header>
+
+            <!-- NAV-BAR -->
+            <nav class="nav-bar flex">
+                <div class="link">
+                    <a href="">IN EVIDENZA</a>
+                    <hr>
+                </div>
+                <div class="link">
+                    <a href="">PODCAST</a>
+                    <hr>
+                </div>
+                <div class="link">
+                    <a href="">CLASSIFICHE</a>
+                    <hr>
+                </div>
+                <div class="link">
+                    <a href="">GENERI E MOOD</a>
+                    <hr>
+                </div>
+                <div class="link">
+                    <a href="">NUOVE USCITE</a>
+                    <hr>
+                </div>
+                <div class="link">
+                    <a href="">SCOPRI</a>
+                    <hr>
+                </div>
+            </nav>
+
+            <!-- RECENTLY PLAYED -->
             <div class="row recently-played">
                 <h1>Recently Played</h1>
                 <div class="cards flex">
                     <div class="card">
-                        <img src="img/metal_lifting.jpg" alt="">
+                        <figure>
+                            <img src="img/metal_lifting.jpg" alt="">
+                            <div class="play"><i class="fa-solid fa-play fa-3x"></i></div>
+                        </figure>
                         <span class="title">Heavy Metal</span>
                         <span class="subtitle">Subtitle</span>
                     </div>
                     <div class="card">
                         <img src="img/stranger.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
-                        <span class="subtitle">Subtitle</span>
+                        <span class="title">Stranger Things, Vol.
+                            1 (a Netflix Original
+                            Series Soundtrack)
+                        </span>
+                        <span class="subtitle">Kyle Dixon & Michael Stein</span>
                     </div>
                     <div class="card">
                         <img src="img/aquietplace.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">A quite place</span>
                         <span class="subtitle">Subtitle</span>
                     </div>
                     <div class="card">
                         <img src="img/split.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">Split</span>
                         <span class="subtitle">Subtitle</span>
                     </div>
                     <div class="card">
                         <img src="img/cure.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">A cure for welness</span>
                         <span class="subtitle">Subtitle</span>
                     </div>
                     <div class="card">
                         <img src="img/sinister.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">Sinister</span>
                         <span class="subtitle">Subtitle</span>
                     </div>
                 </div>
             </div>
+
+            <!-- CREATED FOR -->
             <div class="row created-for">
                 <h1>Creato per</h1>
                 <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                 <div class="cards flex">
                     <div class="card">
                         <img src="img/radar.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">Release Radar</span>
                     </div>
                     <div class="card">
                         <img src="img/mixdaily.jpeg" alt="">
-                        <span class="title">Heavy Metal</span>
+                        <span class="title">Daily Mix 1</span>
                     </div>
                 </div>
             </div>
 
+            <!-- POPULAR ARTISTS -->
             <div class="row popular-artists">
                 <h1>Artisti più popolari</h1>
                 <p>Più ascolti, più accurati saranno i suggerimenti.</p>
@@ -131,6 +151,9 @@
             </div>
         </section>
     </main>
+
+    <!---------------------------- FOOTER --------------------------->
+
     <footer>
         <div class="col"></div>
         <div class="col"></div>

@@ -1,0 +1,10 @@
+@media screen and (min-width: 639px) {
+    #sidebar {
+        flex-basis: 300px;
+    }
+
+    #sidebar .links img {
+        width: 20%;
+
+    }
+}
