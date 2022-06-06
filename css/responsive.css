@@ -14,24 +14,39 @@
     }
 
     #sidebar .top .big-logo {
-        display: inline-block;
-        width: 400%;
-        margin: 15px 15px;
+        display: block;
+        width: 60%;
+        margin: 0 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
-    #sidebar nav img,
-    #sidebar .download img {
+    #sidebar nav a {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #sidebar nav img {
         width: 15%;
+    }
+
+    #sidebar .download img {
+        width: 10%;
+    }
+
+    #sidebar .playlist {
+        display: block;
+        padding: 0 10px;
     }
 
     #sidebar nav li,
     #sidebar h5 {
         text-align: left;
-        padding: 0 10px;
     }
 
     #sidebar nav span {
         display: inline-block;
+        margin-left: 5px;
     }
 
     #sidebar .home span,
@@ -43,11 +58,7 @@
     #sidebar .profile hr {
         display: block;
         color: rgb(163, 163, 163);
-        margin-top: 5px;
-    }
-
-    #sidebar .playlist {
-        display: block;
+        margin: 5px 0;
     }
 
     /* HOVER */
@@ -77,10 +88,17 @@
         display: none;
     }
 
-    #sidebar .big-logo {
-        display: inline-block;
-        width: 500%;
-        margin: 15px 15px;
+    #sidebar .top .big-logo {
+        display: block;
+        width: 60%;
+        margin: 0 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sidebar nav a {
+        justify-content: flex-start;
+        align-items: center;
     }
 
     #sidebar nav img,
@@ -88,14 +106,19 @@
         width: 10%;
     }
 
+    #sidebar .playlist {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
     #sidebar nav li,
     #sidebar h5 {
         text-align: left;
-        padding: 0 10px;
     }
 
     #sidebar nav span {
         display: inline-block;
+        margin-left: 5px;
     }
 
     #sidebar .home span,
@@ -107,12 +130,9 @@
     #sidebar .profile hr {
         display: block;
         color: rgb(163, 163, 163);
-        margin-top: 5px;
+        margin: 5px 0;
     }
 
-    #sidebar .playlist {
-        display: inline-block;
-    }
 
     .nav-bar .link {
         flex-basis: calc(100% / 5);
@@ -144,10 +164,17 @@
         display: none;
     }
 
-    #sidebar .big-logo {
-        display: inline-block;
-        width: 500%;
-        margin: 15px 15px;
+    #sidebar .top .big-logo {
+        display: block;
+        width: 60%;
+        margin: 0 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sidebar nav a {
+        justify-content: flex-start;
+        align-items: center;
     }
 
     #sidebar nav img,
@@ -155,14 +182,19 @@
         width: 10%;
     }
 
+    #sidebar .playlist {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
     #sidebar nav li,
     #sidebar h5 {
         text-align: left;
-        padding: 0 10px;
     }
 
     #sidebar nav span {
         display: inline-block;
+        margin-left: 5px;
     }
 
     #sidebar .home span,
@@ -174,11 +206,7 @@
     #sidebar .profile hr {
         display: block;
         color: rgb(163, 163, 163);
-        margin-top: 5px;
-    }
-
-    #sidebar .playlist {
-        display: inline-block;
+        margin: 5px 0;
     }
 
     .nav-bar .link {

@@ -27,25 +27,25 @@
             <nav class="flex-col">
                 <div class="top">
                     <div class="logo">
-                        <a class="small-logo" href=""><img src="img/logo-small.svg" alt="small-logo"></a>
-                        <a class="big-logo" href=""><img src="img/logo.svg" alt="big-logo"></a>
+                        <a href=""><img class="small-logo" src="img/logo-small.svg" alt="small-logo"></a>
+                        <a href=""><img class="big-logo" src="img/logo.svg" alt="big-logo"></a>
                     </div>
                     <ul>
                         <li>
-                            <a class="home" href="">
+                            <a class="flex home" href="">
                                 <img src="img/home.svg" alt="home">
                                 <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a class="flex" href="">
                                 <img src="img/search.svg" alt="search">
                                 <span>Cerca</span>
                             </a>
 
                         </li>
                         <li>
-                            <a href="">
+                            <a class="flex" href="">
                                 <img src="img/libreria.svg" alt="library">
                                 <span>La tua libreria</span>
                             </a>
@@ -68,14 +68,14 @@
                 <div class="bottom">
                     <ul>
                         <li class="download">
-                            <a href="">
+                            <a class="flex" href="">
                                 <img src="img/download.svg" alt="download">
                                 <span>Installa app</span>
                             </a>
                         </li>
                         <li class="profile">
                             <hr>
-                            <a href="">
+                            <a class="flex" href="">
                                 <img src="img/profile.svg" alt="profile">
                                 <span>John Doe</span>
                             </a>
@@ -209,6 +209,39 @@
     <!---------------------------- FOOTER --------------------------->
 
     <footer class="flex">
+
+        <div class="col listening flex">
+            <div class="cover"><img src="img/sinister.jpeg" alt=""></div>
+            <div class="info">
+                <a class="album" href="">Sinister</a>
+                <br>
+                <a class="song" href="">Brano</a>
+                <br>
+                <a class="artist" href="">Nome</a>
+            </div>
+            <div class="fav">
+                <a href=""><i class="fa-regular fa-heart"></i></i></a>
+                <br>
+                <a href=""><i class="fa-regular fa-folder"></i></a>
+            </div>
+        </div>
+        <div class="col play flex">
+            <a href=""><i class="fa-solid fa-shuffle fa-2x"></i></a>
+            <a href=""><i class="fa-solid fa-backward-step fa-2x"></i></a>
+            <a href=""><i class="fa-regular fa-circle-play fa-2x"></i></a>
+            <a href=""><i class="fa-solid fa-forward-step fa-2x"></i></a>
+            <a href=""><i class="fa-solid fa-rotate-right fa-2x"></i></a>
+            <span>0:25</span>
+            <span class="time-bar"><span class="flow"></span></span>
+            <span>4:35</span>
+        </div>
+        </div>
+        <div class="col volume flex">
+            <a href=""><i class="fa-solid fa-list"></i></a>
+            <a href=""><i class="fa-solid fa-desktop"></i></a>
+            <a href=""><i class="fa-solid fa-volume-high"></i></a>
+            <span class="volume-bar"><span class="flow"></span></span>
+        </div>
 
     </footer>
 
