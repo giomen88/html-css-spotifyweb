@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 639px) {
     #sidebar {
-        flex-basis: 300px;
+        flex-basis: 200px;
     }
 
     #sidebar .logo {
@@ -13,24 +13,24 @@
         display: none;
     }
 
-    #sidebar .big-logo {
+    #sidebar .top .big-logo {
         display: inline-block;
-        width: 60%;
+        width: 400%;
         margin: 15px 15px;
     }
 
-    #sidebar .links img,
+    #sidebar nav img,
     #sidebar .download img {
-        width: 10%;
+        width: 15%;
     }
 
-    #sidebar .links li,
+    #sidebar nav li,
     #sidebar h5 {
         text-align: left;
         padding: 0 10px;
     }
 
-    #sidebar .links span {
+    #sidebar nav span {
         display: inline-block;
     }
 
@@ -47,7 +47,7 @@
     }
 
     #sidebar .playlist {
-        display: inline-block;
+        display: block;
     }
 
     /* HOVER */
@@ -55,13 +55,18 @@
     #sidebar .playlist a:hover {
         color: rgb(255 255 255);
     }
+
+    .nav-bar .link {
+        flex-basis: calc(100% / 3);
+    }
+
 }
 
 /**************** MIN-WIDTH 878PX *****************/
 
 @media screen and (min-width: 878px) {
     #sidebar {
-        flex-basis: 300px;
+        flex-basis: 200px;
     }
 
     #sidebar .logo {
@@ -74,22 +79,22 @@
 
     #sidebar .big-logo {
         display: inline-block;
-        width: 60%;
+        width: 500%;
         margin: 15px 15px;
     }
 
-    #sidebar .links img,
+    #sidebar nav img,
     #sidebar .download img {
         width: 10%;
     }
 
-    #sidebar .links li,
+    #sidebar nav li,
     #sidebar h5 {
         text-align: left;
         padding: 0 10px;
     }
 
-    #sidebar .links span {
+    #sidebar nav span {
         display: inline-block;
     }
 
@@ -107,6 +112,10 @@
 
     #sidebar .playlist {
         display: inline-block;
+    }
+
+    .nav-bar .link {
+        flex-basis: calc(100% / 5);
     }
 
     .row .card {
@@ -124,7 +133,7 @@
 
 @media screen and (min-width: 1440px) {
     #sidebar {
-        flex-basis: 300px;
+        flex-basis: 200px;
     }
 
     #sidebar .logo {
@@ -137,22 +146,22 @@
 
     #sidebar .big-logo {
         display: inline-block;
-        width: 60%;
+        width: 500%;
         margin: 15px 15px;
     }
 
-    #sidebar .links img,
+    #sidebar nav img,
     #sidebar .download img {
         width: 10%;
     }
 
-    #sidebar .links li,
+    #sidebar nav li,
     #sidebar h5 {
         text-align: left;
         padding: 0 10px;
     }
 
-    #sidebar .links span {
+    #sidebar nav span {
         display: inline-block;
     }
 
@@ -170,6 +179,10 @@
 
     #sidebar .playlist {
         display: inline-block;
+    }
+
+    .nav-bar .link {
+        flex-basis: calc(100% / 6);
     }
 
     .row .card {
