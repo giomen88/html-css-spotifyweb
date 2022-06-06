@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -24,18 +24,63 @@
         <!-- SIDEBAR -->
         <section id="sidebar">
             <div class="logo">
-                <a href=""><img src="img/logo-small.svg" alt="small-logo-image"></a>
+                <a class="small-logo" href=""><img src="img/logo-small.svg" alt="small-logo"></a>
+                <a class="big-logo" href=""><img src="img/logo.svg" alt="big-logo"></a>
             </div>
             <nav class="links flex-col">
-                <ul class="top">
-                    <li><a href=""><img src="img/home.svg" alt="home"></a></li>
-                    <li><a href=""><img src="img/search.svg" alt="search"></a></li>
-                    <li><a href=""><img src="img/libreria.svg" alt="library"></a></li>
-                </ul>
-                <ul class="bottom">
-                    <li><a href=""><img class="download" src="img/download.svg" alt="download"></a></li>
-                    <li><a href=""><img class="profile" src="img/profile.svg" alt="profile"></a></li>
-                </ul>
+                <div class="top">
+                    <ul>
+                        <li>
+                            <a class="home" href="">
+                                <img src="img/home.svg" alt="home">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/search.svg" alt="search">
+                                <span>Cerca</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/libreria.svg" alt="library">
+                                <span>La tua libreria</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="playlist">
+                    <h5>PLAYLIST</h5>
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-square-plus fa-2x"></i> Crea Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                        <li><a href="">Nome Playlist</a></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li class="download">
+                            <a href="">
+                                <img src="img/download.svg" alt="download">
+                                <span>Installa app</span>
+                            </a>
+                        </li>
+                        <li class="profile">
+                            <hr>
+                            <a href="">
+                                <img src="img/profile.svg" alt="profile">
+                                <span>John Doe</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </section>
 
@@ -82,7 +127,7 @@
                     <div class="card">
                         <figure>
                             <img src="img/metal_lifting.jpg" alt="">
-                            <div class="play"><i class="fa-solid fa-play fa-3x"></i></div>
+                            <div class="play"><a href=""><i class="fa-regular fa-circle-play fa-4x"></i></a></div>
                         </figure>
                         <span class="title">Heavy Metal</span>
                         <span class="subtitle">Subtitle</span>
@@ -154,11 +199,44 @@
 
     <!---------------------------- FOOTER --------------------------->
 
-    <footer>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+    <footer class="flex">
+
+        <div class="col listening flex">
+            <a href="">
+                <img src="img/sinister.jpeg" alt="">
+            </a>
+            <div class="info">
+                <a class="album" href="">Sinister</a>
+                <a class="song" href="">Brano</a>
+                <a lass="artist" href="">Nome</a>
+            </div>
+            <div>
+                <a href=""><i class="fa-regualr fa-heart"></i>"</a>
+                <a href=""><i class="fa-regualr fa-folder"></i></a>
+            </div>
+        </div>
+
+        <div class="col play">
+            <div class="flex">
+                <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                <a href=""><i class="fa-solid fa-backward-step"></i></a>
+                <a href=""><i class="fa-regular fa-circle-play"></i></a>
+                <a href=""><i class="fa-solid fa-forward-step"></i></a>
+                <a href=""><i class="fa-solid fa-rotate-right"></i></a>
+            </div>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="col volume flex">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
     </footer>
 
 </body>
