@@ -44,7 +44,7 @@ a {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .flex-col {
@@ -130,7 +130,7 @@ a {
 }
 
 #sidebar .playlist .add {
-    flex-basis: 35px;
+    height: 35px;
 }
 
 #sidebar .playlist .list {
@@ -187,6 +187,7 @@ a {
 
 .nav-bar {
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 0.8rem;
 }
 
@@ -200,13 +201,6 @@ a {
     color: rgb(116, 118, 123);
     display: block;
 }
-
-/* .nav-bar .link hr {
-    width: 30px;
-    color: rgb(208, 255, 108);
-    display: none;
-} */
-
 
 /* CARDS */
 
@@ -224,6 +218,7 @@ a {
 .row .cards {
     justify-content: flex-start;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .row .card {
@@ -331,11 +326,12 @@ footer .audio .tools {
 
 footer .tools a {
     flex-basis: calc(100% / 5);
-    margin: 0 5px;
+    margin: 0 16px;
 }
 
 footer .audio .time {
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
 }
 
@@ -357,6 +353,7 @@ footer .time-bar .flow {
     height: 4px;
     border-radius: 3px;
     background-color: rgb(255 255 255);
+    position: relative;
 }
 
 footer .volume {
@@ -377,25 +374,7 @@ footer .volume .volume-bar {
     border-radius: 3px;
 }
 
-footer .volume-bar .flow {
-    width: 40%;
-    height: 4px;
-    border-radius: 3px;
-    background-color: rgb(255 255 255);
-}
-
-
 /******************************* HOVER *******************************/
-
-/* #sidebar .top li:hover,
-#sidebar .bottom li:hover,
-#sidebar .logo:hover {
-    border-left: 3px solid rgb(208, 255, 108);
-} */
-
-/* .nav-bar .link:hover hr {
-    display: inline-block;
-} */
 
 .upgrade .btn:hover {
     font-size: 0.9rem;
@@ -424,4 +403,22 @@ footer .volume-bar .flow {
 
 footer a:hover {
     color: rgb(255 255 255);
+}
+
+footer .time-bar:hover {
+    cursor: pointer;
+}
+
+footer .time-bar:hover .flow::after {
+    content: '\f111';
+    font: var(--fa-font-solid);
+    color: rgb(255 255 255);
+    position: absolute;
+    bottom: 50%;
+    left: 100%;
+    transform: translate(-50%, 50%);
+}
+
+footer .time-bar:hover .flow {
+    background-color: rgb(199, 255, 16);
 }
