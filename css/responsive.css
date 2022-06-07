@@ -1,6 +1,6 @@
-/**************** MIN-WIDTH 639PX ***************/
+/**************** MIN-WIDTH 768PX ***************/
 
-@media screen and (min-width: 639px) {
+@media screen and (min-width: 768px) {
     #sidebar {
         flex-basis: 200px;
     }
@@ -15,7 +15,7 @@
 
     #sidebar .top .big-logo {
         display: block;
-        width: 60%;
+        width: 80%;
         margin: 0 10px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -49,7 +49,6 @@
         margin-left: 5px;
     }
 
-    #sidebar .home span,
     #sidebar .profile span {
         color: rgb(255 255 255);
         font-weight: bold;
@@ -61,21 +60,24 @@
         margin: 5px 0;
     }
 
+    .nav-bar .link {
+        flex-basis: calc(100% / 3);
+    }
+
     /* HOVER */
 
     #sidebar .playlist a:hover {
         color: rgb(255 255 255);
     }
 
-    .nav-bar .link {
-        flex-basis: calc(100% / 3);
+    #sidebar li span:hover {
+        color: rgb(255 255 255);
     }
-
 }
 
-/**************** MIN-WIDTH 878PX *****************/
+/**************** MIN-WIDTH 992PX *****************/
 
-@media screen and (min-width: 878px) {
+@media screen and (min-width: 992px) {
     #sidebar {
         flex-basis: 200px;
     }
@@ -90,7 +92,7 @@
 
     #sidebar .top .big-logo {
         display: block;
-        width: 60%;
+        width: 80%;
         margin: 0 10px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -101,7 +103,10 @@
         align-items: center;
     }
 
-    #sidebar nav img,
+    #sidebar nav img {
+        width: 15%;
+    }
+
     #sidebar .download img {
         width: 10%;
     }
@@ -121,7 +126,6 @@
         margin-left: 5px;
     }
 
-    #sidebar .home span,
     #sidebar .profile span {
         color: rgb(255 255 255);
         font-weight: bold;
@@ -147,11 +151,15 @@
     #sidebar .playlist a:hover {
         color: rgb(255 255 255);
     }
+
+    #sidebar li span:hover {
+        color: rgb(255 255 255);
+    }
 }
 
-/**************** MIN-WIDTH 1440PX *****************/
+/**************** MIN-WIDTH 1200PX *****************/
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     #sidebar {
         flex-basis: 200px;
     }
@@ -166,7 +174,7 @@
 
     #sidebar .top .big-logo {
         display: block;
-        width: 60%;
+        width: 80%;
         margin: 0 10px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -177,7 +185,10 @@
         align-items: center;
     }
 
-    #sidebar nav img,
+    #sidebar nav img {
+        width: 15%;
+    }
+
     #sidebar .download img {
         width: 10%;
     }
@@ -197,7 +208,6 @@
         margin-left: 5px;
     }
 
-    #sidebar .home span,
     #sidebar .profile span {
         color: rgb(255 255 255);
         font-weight: bold;
@@ -220,6 +230,10 @@
     /* HOVER */
 
     #sidebar .playlist a:hover {
+        color: rgb(255 255 255);
+    }
+
+    #sidebar li span:hover {
         color: rgb(255 255 255);
     }
 }
