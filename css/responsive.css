@@ -1,5 +1,5 @@
-/**************** MIN-WIDTH 480PX ***************/
-@media screen and (max-width: 480px) {
+/**************** MIN-WIDTH 575PX ***************/
+@media screen and (max-width: 575px) {
 
     .row {
         text-align: center;
